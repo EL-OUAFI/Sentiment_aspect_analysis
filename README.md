@@ -1,9 +1,9 @@
 # Sentiment_aspect_analysis
 
-**Model 1: BERT-based Classifier**
-    - Model: Pre-trained bert-base-uncased from Hugging Face.
-    - Input Representation:
-        Sentence: The input sentence containing the aspect term.
+**Model 1: BERT-based Classifier** \\
+    - Model: Pre-trained bert-base-uncased from Hugging Face.\\
+    - Input Representation:\\
+        Sentence: The input sentence containing the aspect term.\\
         Aspect Term: Marked with special tokens [T1] and [T2] around the term.
         Aspect Category: Mapped to an embedding specific to the category.
         Sentiment Score: Calculated using a sentiment lexicon tailored for each aspect.
