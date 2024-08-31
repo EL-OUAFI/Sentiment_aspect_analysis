@@ -7,7 +7,7 @@ from sklearn.preprocessing import LabelEncoder
 import torch.nn.functional as F
 import random
 
-# Focal Loss for handling class imbalance
+#  Focal Loss for handling class imbalance.
 class FocalLoss(nn.Module):
     def __init__(self, alpha=1, gamma=2):
         
