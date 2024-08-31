@@ -1,13 +1,13 @@
 # Sentiment_aspect_analysis
 
 **Model 1: BERT-based Classifier**
-    1.    Model: Pre-trained bert-base-uncased from Hugging Face.
-    2.    Input Representation:
+    - Model: Pre-trained bert-base-uncased from Hugging Face.
+    - Input Representation:
         Sentence: The input sentence containing the aspect term.
         Aspect Term: Marked with special tokens [T1] and [T2] around the term.
         Aspect Category: Mapped to an embedding specific to the category.
         Sentiment Score: Calculated using a sentiment lexicon tailored for each aspect.
-    3.    Architecture:
+    - Architecture:
         BERT Embedding: The sentence with marked aspect terms is passed through BERT to obtain contextual embeddings.
         Aspect Embedding: Each aspect category is mapped to a dense vector representation using an embedding layer.
         Sentiment Score: A sentiment score is computed based on a lexicon and passed through a small fully connected layer.
